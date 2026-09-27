@@ -1,10 +1,13 @@
+/* Styles entire page to have this background color */
 html {
     background-color: #63cf69;
 }
 
+/* Centers h1 tags, gives them a unique font, removes margin to allow for styling with ids */
 h1 {
     text-align: center;
     font-family: Verdana, sans-serif;
+    margin: 0px;
 }
 
 h2 {
@@ -12,40 +15,50 @@ h2 {
     font-family: Helvetica, sans-serif;
 }
 
+/* Standardizes font and size for body text */
 p {
     font-family: Arial, sans-serif;
     font-size: 20px;
 }
 
+/* Rounds the corners of images to give the site a softer feel */
 img {
     border-radius: 20px;
 }
 
 li, ul {
     font-size: 18px;
+    font-family: Arial, sans-serif;
 }
 
-a:link {
+/* Makes links always this color when not being interacted with*/
+a:link, a:visited {
     color: #f7d4b8;
 }
 
+/* Makes links another color when the cursor hovers over them */
 a:hover {
     color: #cc9dfa;
 }
 
+/* Separates the websites topics into visual sections */
 section {
     margin: 10px;
     margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #3dba44;
+    border-radius: 15px;
 }
 
+/* Pushes footer to the right */
 footer {
     text-align: right;
 }
 
-.arial {
-    font-family: Arial, sans-serif;
-}
-
+/* Creates a button to style the links that navigate between pages */
 .button {
     padding: 12px;
     background-color: #c25f0e;
@@ -55,18 +68,37 @@ footer {
     font-family: Copperplate, fantasy;
 }
 
+/* Puts select sections into a container and places them side by side */
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+/* Unique design for the header on the homepage */
 #homeheader {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     background-color: #c25f0e;
     border-radius: 30px;
     border: 8px inset #451501;
     color: #fed5b5;
 }
 
+/* Cleans up spacing and format in the home header */
+#homeheader-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+}
+
+/* Slightly different design for the header on page 2 */
 #page2header {
     margin-bottom: 30px;
     background-color: #c25f0e;
     border-radius: 30px;
     border: 8px outset #451501;
     color: #fed5b5;
+    padding: 20px;
 }
