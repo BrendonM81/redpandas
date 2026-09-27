@@ -4,24 +4,69 @@ html {
 
 h1 {
     text-align: center;
-    font-family: Helvetica, sans-serif;
+    font-family: Verdana, sans-serif;
 }
 
 h2 {
     text-align: center;
-    font-family: Verdana, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
-p, a {
+p {
     font-family: Arial, sans-serif;
     font-size: 20px;
 }
 
-li {
-    font-family: Arial, sans-serif;
+img {
+    border-radius: 20px;
+}
+
+li, ul {
     font-size: 18px;
 }
 
-ul {
+a:link {
+    color: #f7d4b8;
+}
+
+a:hover {
+    color: #cc9dfa;
+}
+
+section {
+    margin: 10px;
+    margin-bottom: 40px;
+}
+
+footer {
+    text-align: right;
+}
+
+.arial {
     font-family: Arial, sans-serif;
+}
+
+.button {
+    padding: 12px;
+    background-color: #c25f0e;
+    border: 2px solid black;
+    border-radius: 16px;
+    font-size: 16px;
+    font-family: Copperplate, fantasy;
+}
+
+#homeheader {
+    margin-bottom: 50px;
+    background-color: #c25f0e;
+    border-radius: 30px;
+    border: 8px inset #451501;
+    color: #fed5b5;
+}
+
+#page2header {
+    margin-bottom: 30px;
+    background-color: #c25f0e;
+    border-radius: 30px;
+    border: 8px outset #451501;
+    color: #fed5b5;
 }
