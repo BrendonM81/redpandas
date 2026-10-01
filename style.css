@@ -5,14 +5,19 @@ html {
 
 /* Centers h1 tags, gives them a unique font, removes margin to allow for styling with ids */
 h1 {
-    text-align: center;
     font-family: Verdana, sans-serif;
+    text-align: center;
     margin: 0px;
 }
 
 h2 {
-    text-align: center;
     font-family: Helvetica, sans-serif;
+    margin: 10px;
+}
+
+h3 {
+    font-family: Helvetica, sans-serif;
+    margin: 3px;
 }
 
 /* Standardizes font and size for body text */
@@ -73,6 +78,11 @@ footer {
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
+}
+
+.images {
+    border: 4px outset #451501;
+    margin: 0px 2px;
 }
 
 /* Unique design for the header on the homepage */
