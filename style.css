@@ -1,6 +1,6 @@
 /* Styles entire page to have this background color */
 html {
-    background-color: #63cf69;
+    background-color: #3dba44;
 }
 
 /* Centers h1 tags, gives them a unique font, removes margin to allow for styling with ids */
@@ -32,8 +32,16 @@ img {
 }
 
 li, ul {
-    font-size: 18px;
     font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+nav a {
+    font-family: Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
 }
 
 /* Makes links always this color when not being interacted with*/
@@ -48,13 +56,13 @@ a:hover {
 
 /* Separates the websites topics into visual sections */
 section {
-    margin: 10px;
-    margin-bottom: 40px;
+    background-color: #63cf69;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 10px;
+    margin-bottom: 40px;
     padding: 10px;
-    background-color: #3dba44;
     border-radius: 15px;
 }
 
@@ -65,12 +73,13 @@ footer {
 
 /* Creates a button to style the links that navigate between pages */
 .button {
-    padding: 12px;
     background-color: #c25f0e;
     border: 2px solid black;
     border-radius: 16px;
-    font-size: 16px;
+    padding: 12px;
     font-family: Copperplate, fantasy;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 /* Puts select sections into a container and places them side by side */
@@ -80,6 +89,7 @@ footer {
     margin-bottom: 20px;
 }
 
+/* Puts border and spacing on images in the images sections */
 .images {
     border: 4px outset #451501;
     margin: 0px 2px;
@@ -87,27 +97,28 @@ footer {
 
 /* Unique design for the header on the homepage */
 #homeheader {
-    margin-bottom: 30px;
     background-color: #c25f0e;
-    border-radius: 30px;
-    border: 8px inset #451501;
     color: #ffdec4;
-}
-
-/* Cleans up spacing and format in the home header */
-#homeheader-div {
+    border: 8px inset #451501;
+    border-radius: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 30px;
     padding: 15px;
     gap: 10px;
 }
 
 /* Slightly different design for the header on page 2 */
 #page2header {
-    margin-bottom: 30px;
     background-color: #c25f0e;
-    border-radius: 30px;
+    color: #ffdec4;
     border: 8px outset #451501;
-    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding: 15px;
+    gap: 10px;
 }
