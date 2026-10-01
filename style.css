@@ -81,7 +81,7 @@ footer {
     background-color: #c25f0e;
     border-radius: 30px;
     border: 8px inset #451501;
-    color: #fed5b5;
+    color: #f7d4b8;
 }
 
 /* Cleans up spacing and format in the home header */
@@ -99,6 +99,5 @@ footer {
     background-color: #c25f0e;
     border-radius: 30px;
     border: 8px outset #451501;
-    color: #fed5b5;
     padding: 20px;
 }
