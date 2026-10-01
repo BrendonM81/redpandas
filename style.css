@@ -122,3 +122,9 @@ footer {
     padding: 15px;
     gap: 10px;
 }
+
+@media (max-width: 450px) {
+  body {
+    font-size: 10px;
+  }
+}
