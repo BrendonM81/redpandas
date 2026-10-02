@@ -1,6 +1,9 @@
 /* Styles entire page to have this background color */
 html {
-    background-color: #3dba44;
+    background-color: #81e689;
+}
+body {
+    color: white;
 }
 /* Centers h1 tags, gives them a unique font, removes margin to allow for styling with ids */
 h1 {
@@ -40,15 +43,15 @@ nav a {
 }
 /* Makes links always this color when not being interacted with*/
 a:link, a:visited {
-    color: #ffdec4;
+    color: white;
 }
 /* Makes links another color when the cursor hovers over them */
 a:hover {
-    color: #EBD6FF;
+    color: #d1ffca;
 }
 /* Separates the websites topics into visual sections */
 section {
-    background-color: #63cf69;
+    background-color: #04800a;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -64,7 +67,7 @@ footer {
 
 /* Creates a button to style the links that navigate between pages */
 .button {
-    background-color: #c25f0e;
+    background-color: #0a7a0f;
     border: 2px solid black;
     border-radius: 16px;
     padding: 12px;
@@ -90,8 +93,8 @@ footer {
 
 /* Unique design for the header on the homepage */
 #homeheader {
-    background-color: #c25f0e;
-    color: #ffdec4;
+    background-color: #af5913;
+    color: white;
     border: 8px inset #451501;
     border-radius: 30px;
     display: flex;
@@ -103,8 +106,8 @@ footer {
 }
 /* Slightly different design for the header on page 2 */
 #page2header {
-    background-color: #c25f0e;
-    color: #ffdec4;
+    background-color: #cc5e04;
+    color: white;
     border: 8px outset #451501;
     border-radius: 30px;
     display: flex;
