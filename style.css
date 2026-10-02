@@ -8,32 +8,34 @@ h1 {
     font-family: Verdana, sans-serif;
     text-align: center;
     margin: 0px;
+    font-size: 2.25em;
 }
 
 h2 {
     font-family: Helvetica, sans-serif;
     margin: 10px;
+    font-size: 1.75em;
 }
 
 h3 {
     font-family: Helvetica, sans-serif;
     margin: 3px;
+    font-size: 1.42em;
 }
 
 /* Standardizes font and size for body text */
-p {
+p, li {
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 1.25em;
+}
+
+nav {
+    font-size: 1em;
 }
 
 /* Rounds the corners of images to give the site a softer feel */
 img {
     border-radius: 20px;
-}
-
-li, ul {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
 }
 
 nav a {
@@ -77,16 +79,20 @@ footer {
     border: 2px solid black;
     border-radius: 16px;
     padding: 12px;
+    font-size: 1.25em;
     font-family: Copperplate, fantasy;
-    font-size: 16px;
     text-decoration: none;
 }
 
 /* Puts select sections into a container and places them side by side */
 .container {
     display: flex;
+    flex-direction: column;
+}
+
+.image_div {
+    display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
 }
 
 /* Puts border and spacing on images in the images sections */
@@ -124,7 +130,42 @@ footer {
 }
 
 @media (max-width: 450px) {
-  body {
-    font-size: 10px;
+  h1 {
+    font-size: 2.15em;
+  }
+  h2 {
+    font-size: 1.65em;
+  }
+  h3 {
+    font-size: 1.32em;
+  }
+  p, li {
+    font-size: 1.15em;
+  }
+  nav {
+    font-size: .9em;
+  }
+  section {
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 0px;
+    border-radius: 15px;
+  }
+  footer {
+    margin-top: 20px;
+  }
+  .button {
+    font-size: 1.15em;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .images {
+    width: 120px;
+    margin: 2px 2px;
+  }
+  .image_div {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
