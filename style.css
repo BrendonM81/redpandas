@@ -2,10 +2,11 @@
 html {
     background-color: #81e689;
 }
+/* Makes all text white by default */
 body {
     color: white;
 }
-/* Centers h1 tags, gives them a unique font, removes margin to allow for styling with ids */
+/* Centers h1 tags, gives them a unique font, removes margin to allow for styling with ids, and changes the font size */
 h1 {
     font-family: Verdana, sans-serif;
     text-align: center;
@@ -34,6 +35,7 @@ nav {
 img {
     border-radius: 20px;
 }
+/* Styles the links in the navigation bar */
 nav a {
     font-family: Arial, sans-serif;
     border: 2px solid black;
@@ -78,10 +80,6 @@ footer {
 /* Puts select sections into a container and places them side by side */
 .container {
     display: flex;
-    flex-direction: column;
-}
-.image_div {
-    display: flex;
     flex-direction: row;
 }
 /* Puts border and spacing on images in the images sections */
@@ -90,7 +88,13 @@ footer {
     margin: 0px 2px;
     width: 240px;
 }
-
+/* Wraps and centers images so when browser size changes, images stay formatted neatly */
+.image_div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 /* Unique design for the header on the homepage */
 #homeheader {
     background-color: #af5913;
@@ -119,6 +123,7 @@ footer {
 }
 
 
+/* Changes formatting for screen width of 450px or less */
 @media (max-width: 450px) {
   h1 {
     font-size: 2.15em;
@@ -157,9 +162,5 @@ footer {
   .images {
     width: 120px;
     margin: 2px 2px;
-  }
-  .image_div {
-    flex-wrap: wrap;
-    justify-content: center;
   }
 }
