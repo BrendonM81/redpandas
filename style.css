@@ -1,15 +1,11 @@
-/* Styles entire page to have this background color */
-html {
-    background-color: #81e689;
-}
-/* Makes all text white by default */
+/* Styles entire page to have this background color and makes all text white by default*/
 body {
     color: white;
+    background-color: #81e689
 }
 /* Centers h1 tags, gives them a unique font, removes margin to allow for styling with ids, and changes the font size */
 h1 {
     font-family: Verdana, sans-serif;
-    text-align: center;
     margin: 0px;
     font-size: 2.25em;
 }
