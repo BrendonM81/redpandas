@@ -121,24 +121,16 @@ footer {
   header img {
     width: 240px;
   }
-  section {
-    margin: 10px;
-    padding: 10px;
-    margin-bottom: 0px;
-    border-radius: 15px;
-  }
-  footer {
-    margin-top: 20px;
-  }
 
   .button {
     font-size: 1.15em;
   }
-  .container {
-    flex-direction: column;
-  }
   .images {
     width: 120px;
     margin: 2px 2px;
+  }
+  
+  #first-row {
+    flex-direction: column;
   }
 }
