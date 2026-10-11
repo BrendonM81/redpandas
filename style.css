@@ -50,12 +50,6 @@ a:hover {
 /* Separates the websites topics into visual sections */
 section {
     background-color: #04800a;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 10px;
-    margin-bottom: 40px;
-    padding: 10px;
     border-radius: 15px;
 }
 /* Pushes footer to the right */
@@ -73,24 +67,12 @@ footer {
     font-family: Copperplate, fantasy;
     text-decoration: none;
 }
-/* Puts select sections into a container and places them side by side */
-.container {
-    display: flex;
-    flex-direction: row;
-}
 /* Puts border and spacing on images in the images sections */
 .images {
     border: 4px outset #451501;
     margin: 0px 2px;
     width: 240px;
 }
-/* Wraps and centers images so when browser size changes, images stay formatted neatly */
-.image_div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 /* Unique design for the header on the homepage */
 #homeheader {
     background-color: #af5913;
