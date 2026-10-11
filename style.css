@@ -27,10 +27,6 @@ p, li {
 nav {
     font-size: 1em;
 }
-/* Rounds the corners of images to give the site a softer feel */
-img {
-    border-radius: 20px;
-}
 /* Styles the links in the navigation bar */
 nav a {
     font-family: Arial, sans-serif;
@@ -38,6 +34,11 @@ nav a {
     border-radius: 10px;
     padding: 5px;
     text-decoration: none;
+    background-color: #af5913;
+}
+/* Rounds the corners of images to give the site a softer feel */
+img {
+    border-radius: 20px;
 }
 /* Makes links always this color when not being interacted with*/
 a:link, a:visited {
@@ -79,12 +80,6 @@ footer {
     color: white;
     border: 8px inset #451501;
     border-radius: 30px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 30px;
-    padding: 15px;
-    gap: 10px;
 }
 /* Slightly different design for the header on page 2 */
 #page2header {
@@ -92,12 +87,6 @@ footer {
     color: white;
     border: 8px outset #451501;
     border-radius: 30px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 30px;
-    padding: 15px;
-    gap: 10px;
 }
 
 
