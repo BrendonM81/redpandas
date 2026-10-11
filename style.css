@@ -1,7 +1,7 @@
 /* Styles entire page to have this background color and makes all text white by default*/
 body {
     color: white;
-    background-color: #81e689
+    background-color: #81e689;
 }
 /* Centers h1 tags, gives them a unique font, removes margin to allow for styling with ids, and changes the font size */
 h1 {
@@ -26,6 +26,7 @@ p, li {
 }
 nav {
     font-size: 1em;
+    background-color: #81e689;
 }
 /* Styles the links in the navigation bar */
 nav a {
@@ -72,7 +73,7 @@ footer {
 .images {
     border: 4px outset #451501;
     margin: 0px 2px;
-    width: 240px;
+    width: 220px;
 }
 /* Unique design for the header on the homepage */
 #homeheader {
@@ -108,7 +109,7 @@ footer {
     font-size: .9em;
   }
   header img {
-    width: 240px;
+    width: 220px;
   }
 
   .button {
