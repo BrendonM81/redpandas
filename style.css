@@ -1,9 +1,9 @@
-/* Styles entire page to have this background color and makes all text white by default*/
+/* Styles entire page to have this background color and makes all text white by default */
 body {
     color: white;
     background-color: #81e689;
 }
-/* Centers h1 tags, gives them a unique font, removes margin to allow for styling with ids, and changes the font size */
+/* Gives h1 tags a unique font, removes margin to allow for styling with ids, and changes the font size */
 h1 {
     font-family: Verdana, sans-serif;
     margin: 0px;
@@ -19,7 +19,7 @@ h3 {
     margin: 3px;
     font-size: 1.42em;
 }
-/* Standardizes font and size for body text */
+/* Standardizes font and font size for body text */
 p, li {
     font-family: Arial, sans-serif;
     font-size: 1.25em;
@@ -30,18 +30,18 @@ nav {
 }
 /* Styles the links in the navigation bar */
 nav a {
-    font-family: Arial, sans-serif;
+    background-color: #af5913;
     border: 2px solid black;
     border-radius: 10px;
     padding: 5px;
+    font-family: Arial, sans-serif;
     text-decoration: none;
-    background-color: #af5913;
 }
 /* Rounds the corners of images to give the site a softer feel */
 img {
     border-radius: 20px;
 }
-/* Makes links always this color when not being interacted with*/
+/* Makes links always this color when not being interacted with */
 a:link, a:visited {
     color: white;
 }
@@ -82,6 +82,10 @@ footer {
     border: 8px inset #451501;
     border-radius: 30px;
 }
+/* Sets image width for image at top of homepage */
+#homeheader img {
+    width: 260px;
+}
 /* Slightly different design for the header on page 2 */
 #page2header {
     background-color: #af5913;
@@ -119,7 +123,6 @@ footer {
     width: 120px;
     margin: 2px 2px;
   }
-  
   #first-row {
     flex-direction: column;
   }

@@ -10,18 +10,21 @@
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
+    <!-- Creates a navigation bar that allows the user to go between pages and styles to keep it at the top at all times -->
     <nav class="text-center fixed-top mb-2 p-2">
-      <!-- Creates a navigation bar that allows the user to go between pages -->
       <a href="index.html">Home</a> <a href="page2.html" >About</a>
     </nav>
+    <!-- Unique page header with spacing classes from Bootstrap -->
     <header class="d-flex align-items-center flex-column mt-5 mx-5 p-3 gap-3" id="homeheader">
       <!-- Title at top of page -->
       <h1 class="text-center">Learn About Red Pandas</h1>
       <!-- Adds image from images file -->
-      <img src="images/redpandaindex.jpg" alt="Red panda on platform looking at camera" width="260">
+      <img src="images/redpandaindex.jpg" alt="Red panda on platform looking at camera">
     </header>
     <main>
+      <!-- Spacing styles that place intro and diet section next to each other -->
       <div class="row m-4 gap-3" id="first-row">
+        <!-- Spacing styles that center items in the section -->
         <section class="d-flex flex-column align-items-center col p-2">
           <!-- Smaller heading starting a section -->
           <h2 class="text-center">Introduction</h2>
@@ -61,6 +64,7 @@
       </section>
       <section class="p-2 m-4">
         <h3 class="text-center">Images</h3>
+        <!-- Styles images to center and wrap when screen size changes -->
         <div class="d-flex flex-wrap justify-content-center">
           <img class="images" src="images/bamboo.jpg" alt="Bamboo">
           <img class="images" src="images/redpanda1.jpg" alt="Red panda looking into distance">
